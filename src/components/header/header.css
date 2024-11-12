@@ -1,0 +1,29 @@
+* {
+  font-family: var(--header-font);
+  color: var(--font-color);
+  font-weight: 600;
+}
+.nav-bar {
+  display: flex;
+  height: var(--header-height);
+  align-items: flex-start;
+  justify-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+}
+.nav-logo-img {
+  height: 65px;
+
+  margin-right: 250px;
+}
+.nav-item {
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+.nav-list {
+  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  column-gap: 2rem;
+}

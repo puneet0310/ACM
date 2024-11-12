@@ -1,0 +1,61 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000000;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px;
+  border-color: var(--third-color);
+  border-radius: 25px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+.team-section {
+  padding-bottom: 200px;
+}
+.office-name {
+  font-family: var(--body-font);
+  font-size: var(--h1-font-size);
+}
+.office-designantion {
+  font-family: var(--body-font);
+  padding-bottom: 10px;
+  color: var(--first-color-dark);
+  font-weight: 700;
+  font-size: var(--h3-font-size);
+}

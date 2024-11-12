@@ -1,0 +1,17 @@
+.section-title {
+  padding-bottom: 50px;
+}
+.event-title {
+  font-size: var(--h1-font-size);
+  font-family: var(--header-font);
+}
+.event-date {
+  font-size: var(--h3-font-size);
+  font-family: var(--body-font);
+}
+.event-img {
+  border-radius: 35px;
+}
+.events-section {
+  padding-bottom: 200px;
+}

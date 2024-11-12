@@ -1,0 +1,17 @@
+.home-page {
+  padding-left: 300px;
+}
+.heading {
+  margin-top: 150px;
+  font-family: var(--home-font);
+  font-size: 5.6rem;
+  font-weight: 900;
+}
+.heading-acm {
+  font-family: var(--home-font);
+  font-size: 5.6rem;
+  font-weight: 900;
+}
+.button-container {
+  margin-top: 75px;
+}
